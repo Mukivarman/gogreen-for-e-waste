@@ -120,8 +120,8 @@ border: .1em solid black;
   border: .1em solid black;
 }
 .eday img{
-  width: 70%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
   border: .1em solid black;
   border-radius: 1em;
 }
@@ -193,6 +193,7 @@ border: .1em solid black;
   border-radius: 1.5rem;
 }
 footer{
+  width:fir-content;
   border-radius: .5em;
   display:flex;
   margin: 1%;
