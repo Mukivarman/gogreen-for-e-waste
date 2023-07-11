@@ -31,7 +31,7 @@ a{
   border-radius: .5em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: cneter;
   background-color: blue;
 }
 .top img{
@@ -193,16 +193,19 @@ border: .1em solid black;
   border-radius: 1.5rem;
 }
 footer{
-  width:fir-content;
+ width: 100%;
   border-radius: .5em;
-  display:flex;
+  display:inline-flex;
   margin: 1%;
-  background-color: rgb(0, 60, 255);
+  background-color: rgb(0, 6, 255);
   justify-content: space-between;
 }
 footer a{
+  background-color:rgb(0, 6, 255);
+  font-size: small;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 252, 255);
+  border-radius: .3em;
 }
 .list{
   padding: 1%;
@@ -210,8 +213,12 @@ footer a{
   margin: 1%;
 }
 footer li{
-  padding: 5%;
+  padding: 4%;
+  font-size: medium;
 }
 footer button{
   background-color: brown;
+}
+address p {
+  font-size: small;
 }
